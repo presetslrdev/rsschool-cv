@@ -14,7 +14,7 @@ I work well with others and prove myself as a positive team player.
 
  - BORN TO BE
  
- ### Profiles
+### Profiles
 [Github](https://github.com/presetslrdev), [Vk](https://vk.com/yesis)
 
 ### Skills
@@ -27,7 +27,7 @@ I work well with others and prove myself as a positive team player.
  - CMS: Wordpress, Opencart
  - Graphic: Photoshop, Figma
  
- ### Code
+### Code
  ```javascript
 	var buttonHide = $('.b-language-selection__button');
 	var wrapper = $('.b-language-selection__wrapper');
@@ -52,3 +52,15 @@ I work well with others and prove myself as a positive team player.
 		}
 	}, true);
 ```
+
+### Experience
+8 years developed sites on WordPress and Opencart.  
+5 years he wrote programs for industrial microcontrollers Siemens on LAD, FBD, STL languages.  
+Last year he worked as a typesetter.  
+Recently, he switched to the junior developer JS.
+
+### Education
+ - Sukhoi State Technical University of Gomel (Automation and Information Systems Faculty)
+
+### English 
+ - Level: A2
