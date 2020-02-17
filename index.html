@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Resume</title>
+  <link rel="stylesheet" href="styles/style.css?02">
+</head>
+<body>
+<div class="resume">
+  <section class="resume-name">
+    <h1>Esis Denis</h1>
+    <img src="img/avatar.jpg" alt="Profile photo">
+  </section>
+  <hr>
+  <section>
+    <h2>Contact Info</h2>
+    <ul>
+      <li>Email: <a href="mailto:presetslr@gmail.com">presetslr@gmail.com</a></li>
+      <li>Tel: <a href="tel:+375291477006">+375 29 147-70-06</a></li>
+      <li>Telegram: <a href="https://t.me/centrovoy">@Centrovoy</a></li>
+    </ul>
+  </section>
+  <section>
+    <h2>Summary</h2>
+    <p>30 years.</p>
+    <p>Now I want to change my life.</p>
+    <p>I want to become a good programmer.</p>
+    <p>I have to work hard and learn a lot.</p>
+    <p>I work well with others and prove myself as a positive team player.</p>
+    <q>BORN TO BE</q>
+  </section>
+  <section>
+    <h2>Summary</h2>
+    <p><a href="https://github.com/presetslrdev">Github</a></p>
+  </section>
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>Technologies / Languages: HTML & CSS, JavaScript, C++ (Arduino), Java (core), PHP</li>
+      <li>CSS Frameworks: Bootstrap</li>
+      <li>JS Lib / Frameworks: jQuery, Vue.js</li>
+      <li>CSS preprocessors: Sass (Scss)</li>
+      <li>Metodologies: BEM</li>
+      <li>Tools: Gulp, Webpack</li>
+      <li>CMS: Wordpress, Opencart</li>
+      <li>Graphic: Photoshop, Figma</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Code</h2>
+    <pre>
+				<code>
+var buttonHide = $('.b-language-selection__button');
+var wrapper = $('.b-language-selection__wrapper');
+var buttonClose = $('.b-language-selection__close span');
+function hundler() {
+	wrapper.removeClass('animationIn');
+	buttonHide.off("animationend", hundler);
+};
+function showLanguageSelectionBlock(event) {
+	wrapper.show().addClass('animationBg animationIn');
+	buttonClose.addClass('animationBtnHide');
+	buttonHide.on("animationend", hundler);
+	event.preventDefault();
+}
+function hideLanguageSelectionBlock(event) {
+	wrapper.hide();
+	event.preventDefault();
+};
+window.addEventListener("keydown", function (e) {
+	if (e.keyCode == 27) {
+		hideLanguageSelectionBlock();
+	}
+}, true);
+				</code>
+			</pre>
+  </section>
+  <section>
+    <h2>Education</h2>
+    <p>Sukhoi State Technical University of Gomel (Automation and Information Systems Faculty)</p>
+  </section>
+  <section>
+    <h2>Experience</h2>
+    <p>7 years developed sites on WordPress and Opencart.</p>
+    <p>5 years he wrote programs for industrial microcontrollers Siemens on LAD, FBD, STL languages.</p>
+    <p>Last year he worked as a typesetter. </p>
+    <p>Recently, he switched to the junior developer JS.</p>
+  </section>
+  <section>
+    <h2>English</h2>
+    <p>Level: A2</p>
+  </section>
+</div>
+</body>
+</html>
