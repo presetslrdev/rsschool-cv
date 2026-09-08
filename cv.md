@@ -66,3 +66,23 @@ var sortedSquares = function(nums) {
 };```
  
 ---
+
+### Educational Project — RS School CV
+ 
+*Semantic HTML & CSS, Git workflow*
+ 
+- Built a responsive, semantic CV page and published it via GitHub Pages.
+- Source code: [github.com/GITHUB-USERNAME/rsschool-cv](https://github.com/GITHUB-USERNAME/rsschool-cv)
+
+---
+
+## Education
+ 
+- **The Rolling Scopes School — Fullstack Engineering** — online course: frontend fundamentals, JavaScript/TypeScript, Git
+- **Continuous self-education** — Vue/Nuxt ecosystem, web performance, TypeScript, system design
+
+---
+ 
+## English
+ 
+Level: **A1 (Beginner)**. I read technical documentation with support and am actively improving my English through daily practice, tech articles and course materials.
